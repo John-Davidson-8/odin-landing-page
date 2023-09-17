@@ -70,12 +70,14 @@ h6 {
 .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem 3rem;
 }
 ul {
   list-style-type: none;
 }
-
+li {
+  margin-left: 1rem;
+}
 body {
   line-height: 1.5;
   font-size: 1rem;
@@ -85,8 +87,54 @@ body {
   background: #1f2937;
   font-size: 1.5rem;
   color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav a {
+  font-size: 1.3rem;
 }
 .navbar a {
   color: #e5e7eb;
   text-decoration: none;
+}
+
+.header {
+  background: #1f2937;
+  display: flex;
+  gap: 2rem;
+  color: #f9faf8;
+}
+.header-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.header-info h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+.hero-img {
+  flex: 1;
+  padding-bottom: 3rem;
+}
+
+.header-info {
+  flex: 1;
+  padding-bottom: 3rem;
+}
+
+.header-info a {
+  padding: 0.5rem;
+  background: #3882f6;
+  color: white;
+  text-decoration: none;
+  max-width: 7rem;
+  text-align: center;
+  border-radius: 1rem;
 }
